@@ -16,5 +16,8 @@ select *from city
 insert into city values (5,'Ghana','USA','America',200000);
 select *from city
 
+insert into city values (6,'Asia','USA','America',160000);
+select *from city
+
 select name
   from city where population > 120000 and countrycode = 'USA';
